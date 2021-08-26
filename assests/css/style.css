@@ -4,15 +4,67 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #7393b3;
+    color: #faf9f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
     padding: 20px 30px;
+    color: #faf9f6;
     display: flex;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
     justify-content: space-between;
-    background-image: 
+    background-image: url(/assests/images/hero-image.jpeg);
+    background-size: cover;
+    background-position: center;
+    
 
 }
 
 header h1 {
     font-weight: bolder;
+    font-size: 35px; 
+    margin: 0%;
+    letter-spacing: 4px;   
+}
+
+header a {
+    color: #faf9f6;
+    text-decoration: none;
+}
+
+header nav ul {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+    font-size: 1.55vw;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+section {
+    padding: 40px;
 }
