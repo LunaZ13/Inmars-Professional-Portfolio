@@ -22,11 +22,13 @@
             </nav>
         </header>
         <!--hero section-->
-        <div class="hero"></div>
+        <div class="hero">
+            <h1>Welcome...</h1>
+        </div>
         <!--about me section-->
-        <section id="about-me">
-            <div>
-                <h2>About Me</h2>
+        <section id="about-me" class="about">
+            <div class="intro">
+                <h2 class="section-title">About Me</h2>
                 <img src="assests/images/profile-pic.JPG" width="150px" height="200px">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, molestias. Illo magni culpa totam natus repudiandae doloribus magnam adipisci vel iure iste! Tempora perspiciatis ratione dolorum quasi repellat iste fugiat.
@@ -34,30 +36,45 @@
             </div>
         </section>
         <!--portfolio section-->
-        <section id="Portfolio">
+        <section id="portfolio">
             <div>
-                <h2>Portfolio</h2>
+                <h2 class="section-title">Portfolio</h2>
             </div>             
             
             <div class="port-container">
-                <div class="port-item">
-                  <span>Run Buddy</span>
-                </div>
-                <div class="port-item">
-                  <span>Horiseon</span>
-                </div>
-                <div class="port-item">
-                  <span>Fanpage</span>
-                </div>
+                <article class="port-item">
+                    <h3><a href="https://lunaz13.github.io/run-buddy/">Run Buddy App</a></h3>
+                    <img src="assests/images/run-buddy.png" width="250" height="250">
+                </article>
+
+                <article class="port-item">
+                    <h3><a href="https://lunaz13.github.io/horiseon-project/">Horiseon Site</a></h3>
+                    <img src="assests/images/horiseon.png" width="250" height="250">
+                </article>
+
+                <article class="port-item">
+                    <h3>Fan Page</h3>
+                    <img src="http://placehold.it/250x250">
+                </article>
+            </div>
         </section>
         <!--contact section-->
         <section id="contact">
             <div>
-                <h2>Contact</h2>
+                <h2 class="section-title">Contact</h2>
             </div>
             <div>
                 Get In Touch With Me
             </div>
+            <form>
+                <label for="your-email">Your Email</label>
+                <input type="text" id="your-email" placeholder="Your Email" />
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </section>
         <!--footer section-->
         <footer>
