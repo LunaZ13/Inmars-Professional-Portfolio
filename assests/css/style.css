@@ -54,7 +54,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 3px solid #faf9f6;
+    border-bottom: 3px solid #7393b3;
 }
 
 footer {
@@ -83,11 +83,10 @@ section {
     flex-wrap: wrap;
     height: 600px;
     width: 100%;
-    margin-bottom: 20px;
     background-image: url("../images/hero-pic.JPG");
     background-size: cover;
     background-position: center;
-
+    background-attachment: fixed;
 }
 
 .hero h1 {
@@ -100,16 +99,28 @@ section {
     margin: 150px 0;
 }
 
+.flex-row {
+    display: flex;
+}
+
+.intro {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .intro img {
-    float: left;
-    margin: 0 20px 30px 20px;
     border-radius: 15px;
+    border: 3px solid #6F4E37;
+    margin-right: auto;
 }
 
 .about p {
-    line-height: 1.5;
-    color: #faf9f6;
+    line-height: 1.7;
+    color: #4F7942;
     font-size: 20px;
     width: 80%;
     margin: auto;
@@ -122,14 +133,14 @@ section {
     color: #4F7942;
     border-bottom: 3px solid #6F4E37;
     text-align: center;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 20px auto;
     width: 50%;
     padding-bottom: 15px;
 }
 
 
 .port-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -137,4 +148,6 @@ section {
 }
 
 .port-item img {
+    object-fit: cover;
 }
+
