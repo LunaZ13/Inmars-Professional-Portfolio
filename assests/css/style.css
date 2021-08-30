@@ -138,6 +138,9 @@ section {
     padding-bottom: 15px;
 }
 
+.work {
+    background-color: #faf9f6;
+}
 
 .port-container {
     width: 100%;
@@ -147,7 +150,16 @@ section {
     justify-content: space-around;
 }
 
+.port-item h3 {
+    color: #4F7942;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    
 .port-item img {
     object-fit: cover;
+    border: 3px solid #6F4E37;
+    border-radius: 15px;
 }
 
