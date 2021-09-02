@@ -27,19 +27,20 @@
         </div>
         <!--about me section-->
         <section id="about-me" class="about">
+            <!--wrap every h2 element with "section title class"-->
             <div class="flex-row">
                 <h2 class="section-title">About Me</h2>
             </div>
             <!--intro-->
             <div class="intro"> 
-                <img src="assests/images/profile-pic.JPG" width="150px" height="200px">
+                <img src="assests/images/profile-pic.JPG" width="150px" height="200px" alt="Inmar profile picture">
                 <p>
                     You probably haven't heard of them skateboard gastropub, coloring book blog gluten-free tumeric blue bottle authentic franzen direct trade fam celiac umami humblebrag. Knausgaard iceland brooklyn raclette iPhone palo santo lyft selfies vice ethical lumbersexual organic hammock bushwick tumeric. Sriracha gochujang unicorn tilde tacos, pour-over typewriter succulents 3 wolf moon. Gluten-free kitsch sustainable cliche portland whatever. Dreamcatcher sartorial everyday carry pitchfork waistcoat brunch. +1 gentrify direct trade hexagon XOXO fingerstache, single-origin coffee thundercats four dollar toast ramps synth health goth. Farm-to-table banjo mixtape, typewriter hexagon hella trust fund health goth schlitz.
                 </p>
             </div>
         </section>
         <!--portfolio section-->
-        <section id="portfolio" class="work">
+        <section id="portfolio">
             <div class="flex-row">
                 <h2 class="section-title">Portfolio</h2>
             </div>             
@@ -49,7 +50,7 @@
                     <h3>Run Buddy App</h3>
                     <a href="https://lunaz13.github.io/run-buddy/">
                     <img src="assests/images/run-buddy.png"  height="300px">
-                    </a>
+                    </a>    
                 </article>
 
                 <article class="port-item">
@@ -60,9 +61,23 @@
                 </article>
 
                 <article class="port-item">
-                    <h3>Fan Page</h3>
+                    <h3>Calculator</h3>
                     <a href="Fan Page">
-                    <img src="http://placehold.it/300x300">
+                    <img src="assests/images/Calculator.jpeg" width="300px" height="300px">
+                    </a>
+                </article>
+
+                <article class="port-item">
+                    <h3>Weather App</h3>
+                    <a href="/">
+                    <img src="assests/images/Weather.png" width="300px" height="300px">
+                    </a>
+                </article>
+
+                <article class="port-item">
+                    <h3>Fan Page</h3>
+                    <a href="/">
+                    <img src="http://placehold.it/294x294">
                     </a>
                 </article>
             </div>
@@ -73,26 +88,31 @@
             <div class="flex-row">
                 <h2 class="section-title">Contact</h2>
             </div>
-            <div>
-                <h3>Get In Touch With Me</h3>
-                <a href="https://github.com/LunaZ13">github</a>
-                <a href="https://www.linkedin.com/in/inmar-luna-95995a194/">LinkedIn</a>
-                <a href="file:///Users/inmarluna/Downloads/Inmar%20Indeed%20Resue.pdf">Resume</a>
-            </div>
+            <!--contact info div-->
+            <div class="contact-info">
+                <div>
+                    <h3>Get In Touch With Me</h3>
+                    <ul>
+                        <li><strong>Email:</strong> <a href="https://github.com/LunaZ13">github</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/inmar-luna-95995a194/">LinkedIn</a></li>
+                        <li><strong>Resume:</strong> <a href="file:///Users/inmarluna/Downloads/Inmar%20Indeed%20Resue.pdf">Resume</a></li>
+                    </ul>
+                </div>
+                <!--reach out div-->
+                <div class="reach-out">
+                    <form>
+                        <label for="your-email">Your Email</label>
+                        <input type="text" id="your-email" placeholder="Your Email" />
 
-            <div>
-                <form>
-                    <label for="your-email">Your Email</label>
-                    <input type="text" id="your-email" placeholder="Your Email" />
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" placeholder="Message"></textarea>
 
-                    <label for="contact-message">Message</label>
-                    <textarea id="contact-message" placeholder="Message"></textarea>
-
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>    
         </section>
-        
+
         <!--footer section-->
         <footer>
             <h3>&copy; 2021 Inmar Luna . USA</h3>
