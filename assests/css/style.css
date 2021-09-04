@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* body styles */
 body {
     background-color: #d1e8e2;
-    /* color: #faf9f6; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* header styles */
 header {
     padding: 20px 30px;
     display: flex;
@@ -53,10 +52,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #d9b08c;
-    border-bottom: 3px solid #d9b08c;
+    background-color: #d9b08c;
+    color: #116466;
+    border-radius: 15px;
 }
-
+/* footer styles */
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -72,11 +72,11 @@ footer h3 {
     font-size: 20px;
     color: #116466;
 }
-
+/* applies to all sections */
 section {
     padding: 60px;
 }
-
+/* hero styles */
 .hero {
     display: flex;
     justify-content: center;
@@ -96,13 +96,22 @@ section {
     font-weight: bold;
     font-style: oblique;
     text-align: center;
-    margin: 150px 0;
+    margin-top: 150px;
 }
 
+.hero div {
+    color: #d1e8e2;
+    width: 80%;
+    padding: 0 10%;
+    text-align: center;
+    align-self: flex-start;
+    
+}    
+/* applies to all divs with flex-row class */
 .flex-row {
     display: flex;
 }
-
+/* intro styles */
 .intro {
     margin: 20px auto;
     width: 80%;
@@ -126,8 +135,7 @@ section {
     margin: auto;
     text-align: center;
 }
-
-
+/* applies to all section title classes */
 .section-title {
     font-size: 40px;
     color: #116466;
@@ -137,7 +145,7 @@ section {
     width: 50%;
     padding-bottom: 15px;
 }
-
+/* portfolio section styles */
 .port-container {
     width: 80%;
     margin: 20px auto;
@@ -169,7 +177,7 @@ section {
 .port-item img:hover {
     opacity: 1;
 }
-
+/* contact section styles */
 .contact-info {
     display: flex;
     justify-content: space-evenly;
@@ -238,7 +246,7 @@ section {
     color: #d9b08c;
     background-color: #116466;
 }
-
+/* media query for smaller desktop screens and smaller */
 @media  screen and (max-width: 980px) {
     .intro p {
         width: 70%;
@@ -252,7 +260,7 @@ section {
        margin: auto;
     }
 } 
-
+/* media query for tablet screens and smaller */
 @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
@@ -270,7 +278,7 @@ section {
         font-size: 50px;
     }
 }
-
+/* media query for mobile phone screens and smaller */
 @media screen and (max-width: 425px) {
     .header h1  {
        margin-left: auto;
