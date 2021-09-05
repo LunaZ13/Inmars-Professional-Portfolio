@@ -17,7 +17,7 @@
 
 5. Lastly, I made sure all links and images were responsive when interacted with. I also added media queries to make sure my page still responded well on different popular screenn sizes. 
 
-![Alt Text](assets/images/screenshot.png)
+![Alt Text](assests/images/screenshot.png)
 
 Link to deployed page: [https://lunaz13.github.io/Inmars-Professional-Portfolio/]
 
